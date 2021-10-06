@@ -166,15 +166,15 @@ def joinclass(class_name, start_time, end_time):
 
     time.sleep(class_running_time.seconds)
 
-    time.sleep(2)
+    time.sleep(60)
 
-    driver.find_element_by_xpath('//*[@id="tippy-219"]').click()
+    # driver.find_element_by_xpath('//*[@id="tippy-219"]').click()
 
-    time.sleep(1)
+    # time.sleep(1)
 
-    driver.find_element_by_xpath(
-        '//*[@id="app"]/main/section/div/header/div/div[1]/div[3]/div[2]/div/div/ul/li[9]').click()
-    time.sleep(2)
+    # driver.find_element_by_xpath(
+    #     '//*[@id="app"]/main/section/div/header/div/div[1]/div[3]/div[2]/div/div/ul/li[9]').click()
+    # time.sleep(2)
 
     driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/button').click()
     print("Class left")
